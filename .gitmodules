@@ -1,3 +1,7 @@
 [submodule "themes/hugo-initio"]
 	path = themes/hugo-initio
 	url = https://github.com/miguelsimoni/hugo-initio.git
+[submodule "public"]
+	path = public
+	url = git@github.com:JerryKuan/jerryfan.github.io.git
+	branch = master
