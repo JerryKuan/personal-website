@@ -1,20 +1,11 @@
 #!/bin/bash
-if [ $# -lt  1 ]; then
-    echo "$0 <commit message>"
-    exit 1
-fi
-msg="$1"
-git commit -m "$msg"
-if [ $? -ne 0 ]; then
-    echo "Commit failed"
-    exit 1
-fi
-# git fetch upstream
-# git rebase upstream/master
-git push -f origin master
-if [ $? -ne 0 ]; then
-    echo "Push failed"
-fi
+echo -e "\033[0;32mPushing updates to personal-website...\033[0m"
+git fetch upstream
+git add .
+git commit -m 'update personal-website'
+git rebase upstream/master
+git push origin master
+
 echo -e "\033[0;32mDeploying updates to GitHub...\033[0m"
 # Build the project.
 hugo # if using a theme, replace with `hugo -t <YOURTHEME>`
@@ -23,6 +14,10 @@ cd public
 # Add changes to git.
 git add .
 # Commit changes.
+msg="rebuilding site $(date)"
+if [ -n "$*" ]; then
+	msg="$*"
+fi
 git commit -m "$msg"
 # Push source and build repos.
 git push origin master
