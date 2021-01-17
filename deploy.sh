@@ -9,7 +9,9 @@ if [ $? -ne 0 ]; then
     echo "Commit failed"
     exit 1
 fi
-git push origin master
+# git fetch upstream
+# git rebase upstream/master
+git push -f origin master
 if [ $? -ne 0 ]; then
     echo "Push failed"
 fi
