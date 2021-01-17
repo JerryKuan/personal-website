@@ -2,22 +2,22 @@ baseURL = "http://jerryfan.github.io/"
 languageCode = "zh-cn"
 title = "Initio - Free, multipurpose html5 template by GetTemplate"
 theme = "hugo-initio"
-publishDir = "docs"
+publishDir = "public"
 
 [params]
     name = "Jerry Fan"
-    description = "A mystery person"
+    description = "keep learning"
     email = "jiakuanfan@gmail.com"
-    phone = "+234 23 9873237"
-    address = "234 Hidden Pond Road, Ashland City, TN 37015"
-    year = 2017
+    phone = "+86 00000000000"
+    address = "Math. Building, No. 3663, Zhongshan Rd. (N.), Shanghai, China"
+    year = 2021
     avatar = "images/guy.jpg"
     avatarclass = "circle"
     background = ""
     banner = "images/bg_head.jpg"
     favicon = "images/gt_favicon.png"
     DateForm = "January 2, 2006"
-    author = "Sergey Pozhilov (GetTemplate.com)"
+    author = "Jerry Fan"
 
     showSubheader = true
     showServices = true
