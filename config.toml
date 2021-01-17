@@ -1,7 +1,7 @@
 baseURL = "http://jerryfan.github.io/"
 languageCode = "zh-cn"
-title = "Initio - Free, multipurpose html5 template by GetTemplate"
-theme = "hugo-initio"
+title = "keep learning"
+theme = "github.com/theNewDynamic/gohugo-theme-ananke"
 publishDir = "public"
 
 [params]

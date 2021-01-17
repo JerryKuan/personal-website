@@ -1,5 +1,6 @@
 #!/bin/bash
 echo -e "\033[0;32mPushing updates to personal-website...\033[0m"
+#
 git fetch upstream
 git add .
 git commit -m 'update personal-website'
@@ -23,3 +24,4 @@ git commit -m "$msg"
 git push origin master
 # Come Back up to the Project Root
 cd ..
+echo -e "\033[0;32mFinished, enjoy your website!!!\033[0m"
