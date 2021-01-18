@@ -1,4 +1,4 @@
-title = "Notre-Dame de Paris"
+title = "KEEP LEARNING"
 baseURL = "https://jerrykuan.github.io/jerryfan.github.io/"
 languageCode = "en-us"
 theme = "gohugo-theme-ananke"
@@ -7,7 +7,7 @@ publishDir = "public"
 
 DefaultContentLanguage = "en"
 SectionPagesMenu = "main"
-Paginate = 10 # this is set low for demonstrating with dummy content. Set to a higher number
+Paginate = 10     # this is set low for demonstrating with dummy content. Set to a higher number
 googleAnalytics = ""
 enableRobotsTXT = true
 
@@ -25,14 +25,14 @@ enableRobotsTXT = true
 [params]
   favicon = ""
   site_logo = ""
-  description = "The last theme you'll ever need. Maybe."
-  facebook = ""
+  description = "KEEP LEARNING"
+  facebook = "https://www.facebook.com/profile.php?id=100011445841079"
   twitter = "https://twitter.com/GoHugoIO"
-  instagram = ""
+  instagram = "https://www.instagram.com/jerry_fanjk/"
   youtube = ""
-  github = ""
+  github = "https://github.com/JerryKuan"
   gitlab = ""
-  linkedin = ""
+  linkedin = "https://www.linkedin.com/feed/"
   mastodon = ""
   slack = ""
   stackoverflow = ""
