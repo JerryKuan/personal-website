@@ -1,11 +1,11 @@
 title = "Notre-Dame de Paris"
 baseURL = "https://jerryfan.github.io"
 languageCode = "en-us"
-theme = "github.com/theNewDynamic/gohugo-theme-ananke"
+theme = "/Users/fanjiakuan/GitProject/personal-website/themes/gohugo-theme-ananke"
 themesDir = "themes"
 publishDir = "public"
 
-DefaultContentLanguage = "zh-cn"
+DefaultContentLanguage = "en"
 SectionPagesMenu = "main"
 Paginate = 10 # this is set low for demonstrating with dummy content. Set to a higher number
 googleAnalytics = ""
