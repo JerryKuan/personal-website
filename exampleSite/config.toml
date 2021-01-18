@@ -1,13 +1,12 @@
 title = "Notre-Dame de Paris"
-baseURL = "https://jerrykuan.github.io/jerryfan.github.io/"
+baseURL = "https://example.com"
 languageCode = "en-us"
 theme = "gohugo-theme-ananke"
-themesDir = "themes"
-publishDir = "public"
+themesDir = "../.."
 
 DefaultContentLanguage = "en"
 SectionPagesMenu = "main"
-Paginate = 10 # this is set low for demonstrating with dummy content. Set to a higher number
+Paginate = 3 # this is set low for demonstrating with dummy content. Set to a higher number
 googleAnalytics = ""
 enableRobotsTXT = true
 
@@ -16,6 +15,10 @@ enableRobotsTXT = true
     title = "My blog"
     weight = 1
     contentDir = "content/en"
+  [languages.fr]
+    title = "Mon blogue"
+    weight = 2
+    contentDir = "content/fr"
 
 [sitemap]
   changefreq = "monthly"
