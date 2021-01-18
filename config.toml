@@ -1,9 +1,9 @@
 title = "Notre-Dame de Paris"
-baseURL = "https://jerryfan.cn"
+baseURL = "https://jerryfan.github.io"
 languageCode = "en-us"
 theme = "github.com/theNewDynamic/gohugo-theme-ananke"
-themesDir = "public"
-publishDir = "docs"
+themesDir = "themes"
+publishDir = "public"
 
 DefaultContentLanguage = "zh-cn"
 SectionPagesMenu = "main"
