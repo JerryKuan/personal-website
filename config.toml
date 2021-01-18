@@ -1,7 +1,7 @@
 title = "Notre-Dame de Paris"
-baseURL = "https://jerryfan.github.io"
+baseURL = "https://jerrykuan.github.io/jerryfan.github.io/"
 languageCode = "en-us"
-theme = "/Users/fanjiakuan/GitProject/personal-website/themes/gohugo-theme-ananke"
+theme = "./themes/gohugo-theme-ananke"
 themesDir = "themes"
 publishDir = "public"
 
@@ -16,10 +16,6 @@ enableRobotsTXT = true
     title = "My blog"
     weight = 1
     contentDir = "content/en"
-  [languages.fr]
-    title = "Mon blogue"
-    weight = 2
-    contentDir = "content/fr"
 
 [sitemap]
   changefreq = "monthly"
